@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    padding-top: max(1.5vw,12px);
+    padding-bottom: max(1.5vw,12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+main {
+    height: auto;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div{
+    margin-inline: auto;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+} 
+
+
+.comparebox {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form select {
+    width: 120px;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+form input {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+#calculate {
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkturquoise;
+    
+}
+
+#calculate:hover {
+    border: 2px solid darkturquoise;
+}
+
+#outputbox {
+    font-size: 2rem;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outputbox2 {
+    font-size: 2rem;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
